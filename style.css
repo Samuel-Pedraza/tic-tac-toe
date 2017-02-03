@@ -1,0 +1,37 @@
+* { padding: 0; margin: 0; }
+
+.container {
+    height: 608px;
+    width: 608px;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 15px auto;
+    border: 1px solid black;
+}
+
+.grid {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 75px;
+}
+
+#turn {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 50px;
+}
+
+#clear {
+    display: block;
+    height: 75px;
+    width: 175px;
+    margin: 0 auto;
+}
+
+#wins {
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+}
